@@ -197,7 +197,17 @@ span {
 /*main*/
 
 /*first-section 111111111111111111111111111111111111111111111*/
+.office {
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)), url(../images/people-office\ 2.jpg);
+    max-width: 1440px;
+    height: 600px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 
+}
 
 .first {
     background-color:var(--background-color-first);
@@ -327,8 +337,40 @@ span {
     letter-spacing: 0.02em;
 
 }
+.list-item::before {
+    display: block;
+    content: "";
+    height: 112px;
+    outline: 1px solid red;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #F4F4FD;;
+
+}
+.icon-antenna::before {
+    background-image: url(../images/antenna\ 1.svg);
+    background-size: 59.72px 64px;
+}
 
 
+
+.icon-clock::before {
+    background-image: url(../images/clock\ 1.svg);
+    background-size: 61.22px 64px;
+   
+}
+
+
+.icon-diagram::before {
+    background-image: url(../images/diagram\ 1.svg);
+    background-size: 64px 49.09;
+}
+
+.icon-astronaut::before {
+    background-image: url(../images/astronaut\ 1.svg);
+    background-size: 50.13px 55.46px;
+}
 /*3333333333333333333333333333333333333333333333333*/
 .section-three {
     padding-top: 0;
