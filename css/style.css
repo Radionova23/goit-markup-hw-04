@@ -220,7 +220,7 @@ span {
 
 }
 
-.first {
+.office {
     background-color:var(--background-color-first);
     text-align: center;
     padding: 188px 0;
@@ -556,13 +556,14 @@ span {
     padding: 0;
 }
 .social-text {
+    margin-bottom: 16px;
     margin-left: 120px;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--color-social-text);
-    margin-bottom: 16px;
+   
     
    
 }
@@ -600,6 +601,9 @@ span {
 .footer-icon {
     fill: var(--fill-footer-icon);
     
+}
+.footer-container {
+    margin-right: 120px;
 }
 
 span.span-footer {
