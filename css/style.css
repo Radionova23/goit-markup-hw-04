@@ -551,11 +551,13 @@ span {
     display: flex;
     align-items: baseline;
 }
+/*
 .social-text {
     margin: 0;
     padding: 0;
-}
+}*/
 .social-text {
+    margin-top: 0;
     margin-bottom: 16px;
     margin-left: 120px;
     font-weight: 500;
