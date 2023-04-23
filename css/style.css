@@ -558,7 +558,7 @@ span {
 }
 .social-text {
    margin-bottom: 16px;
-    margin-left: 120px;
+   
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -570,9 +570,7 @@ span {
 }
 
 
-.social-footer{
-   margin-left: 120px; 
-}
+
 .social-footer {
     display: flex;
     gap: 16px;
