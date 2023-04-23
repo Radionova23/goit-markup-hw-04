@@ -28,6 +28,10 @@
 --color-footer-text: #F4F4FD;
 --background-color-social: #4d5ae5;
 --fill: #f4f4fd;
+--color-customers-link: #8e8f99;
+--color-social-text: #FFFFFF;
+--background-color-social-footer-link: #4d5ae5;
+--fill-footer-icon: #f4f4fd;
 
 
 }
@@ -353,7 +357,7 @@ span {
     border-radius: 4px;
     margin-bottom: 8px;
 }
-
+  
 
 /*3333333333333333333333333333333333333333333333333*/
 .section-three {
@@ -392,9 +396,9 @@ span {
 
 
 /*444444444444444444444444444444444444444444444444444444*/
-.social {
-    padding: 32px 0;
-}
+/* .social {
+padding: 32px 0;
+}*/
 
 
 .social-link-list {
@@ -459,6 +463,7 @@ span {
 
 .flex-next {
     padding: 32px 16px;
+    padding: 32px 0;
    
    
 }
@@ -484,10 +489,82 @@ span {
     color: var(--color-section-text-portfolio-text);
     letter-spacing: 0.02em;
 }
+/* 555555555555555555555555555555555555555555555555555555555555555555555555555555555*/
+.customers {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+.customers-icon {
+    display: flex;
+    gap: 24px;
+}
+.customers-item {
+    width: calc((100% - 120px) / 6);
+    height: 88px;
 
+}
 
-
+.customers-link {
+    width: 100%;
+    height: 100%;
+    border: 1px solid #8e8f99;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--color-customers-link);
+   
+}
+.customers-link:hover,
+.customers-link:focus {
+    border-color: #404bbf;
+    color: #404bbf;
+}
+.icon-svg {
+    fill: currentColor;
+}
 /*FOOTERRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRR*/
+.social-text {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--color-social-text);
+    margin-bottom: 16px;
+   
+}
+
+.social-footer {
+    display: flex;
+    gap: 16px;
+
+}
+.social-footer-item {
+    width: 40px;
+    height: 40px;
+}
+
+.social-footer-link {
+    width: 100%;
+    height: 100%;
+    background-color: var(--background-color-social-footer-link);
+    display: flex;
+    border-radius: 50%;
+    align-items: center;
+    justify-content:center;
+   
+}
+
+.social-footer-link:hover,
+.social-footer-link:focus {
+    background-color: #31d0aa;
+}
+
+.footer-icon {
+    fill: var(--fill-footer-icon);
+    
+}
+
 span.span-footer {
     color: var(--color-span-white);
 }
