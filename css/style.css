@@ -26,6 +26,8 @@
 --background-color-next: #F4F4FD;
 --background-color-footer: #2E2F42;
 --color-footer-text: #F4F4FD;
+--background-color-social: #4d5ae5;
+--fill: #f4f4fd;
 
 
 }
@@ -390,28 +392,39 @@ span {
 
 
 /*444444444444444444444444444444444444444444444444444444*/
+.social {
+    padding: 32px 0;
+}
 
 
 .social-link-list {
     display: flex;
-    max-height: 40px;
+    justify-content: center;
+    gap: 24px;
    
+}
+.icons {
+    width: 40px;
+    height: 40px;
 }
 
 .social-link {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #4b5ae5;
+    background-color: var(--background-color-social);
     border-radius: 50%;
-    width: 40px;
-    height: 40px;
+    width: 100%;
+    height: 100%;
 
 }
-.theam {
-    width: 16px;
-    height: 16px;
-    fill: white;
+.social-link:hover,
+.social-link:focus {
+    background-color: #404bbf;
+}
+.social-icon {
+    fill:var(--fill);
+   
 }
 
 .flex-caption-next { 
@@ -430,6 +443,9 @@ span {
     background-color: var(--background-color-hero);
      margin-right: 24px;
     border-radius: 0px 0px 4px 4px;
+    box-shadow:  0px 1px 6px rgba(46, 47, 66, 0.08),
+        0px 1px 1px rgba(46, 47, 66, 0.16),
+        0px 2px 1px rgba(46, 47, 66, 0.08);
 
 
 }
@@ -443,6 +459,7 @@ span {
 
 .flex-next {
     padding: 32px 16px;
+   
    
 }
 .section-title {
@@ -467,6 +484,7 @@ span {
     color: var(--color-section-text-portfolio-text);
     letter-spacing: 0.02em;
 }
+
 
 
 /*FOOTERRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRR*/
