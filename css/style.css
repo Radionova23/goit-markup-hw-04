@@ -32,7 +32,8 @@
 --color-social-text: #FFFFFF;
 --background-color-social-footer-link: #4d5ae5;
 --fill-footer-icon: #f4f4fd;
---border-color-link: #4d5ae5;
+--border-color-customers-link-hover: #404bbf;
+--color-customers-link-hover: #404bbf;
 
 
 }
@@ -540,8 +541,8 @@ span {
 
 .customers-link:hover,
 .customers-link:focus {
-    border-color: var(--border-color-link);
-    color: var(--color-customers-link);
+    border-color: var(--border-color-customers-link-hover);
+    color: var(--color-customers-link-hover);
 }
 .icon-svg {
     fill: currentColor;
