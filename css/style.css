@@ -86,10 +86,11 @@ background-color: var(--background-page-portfolio);
 .link {
     text-decoration: none;
 }
+
 .link.logo {
     text-decoration: none;
-}
 
+}
 
 .container {
     
@@ -542,7 +543,8 @@ span {
 .customers-link:hover,
 .customers-link:focus {
     border-color: var(--border-color-customers-link-hover);
-    color: var(--color-customers-link-hover);
+    background-color: var(--color-customers-link-hover);
+    
 }
 .icon-svg {
     fill: currentColor;
@@ -560,6 +562,7 @@ span {
 .container-icon {
     display: flex;
     align-items: baseline;
+   
 }
 
 .social-text {
@@ -646,6 +649,7 @@ span.span-footer {
     margin-bottom:0;
 }
 .logo {
+   
     display: inline-block;
    margin-bottom: 16px;
 }
