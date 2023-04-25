@@ -543,8 +543,8 @@ span {
 .customers-link:hover,
 .customers-link:focus {
     border-color: var(--border-color-customers-link-hover);
-    background-color: var(--color-customers-link-hover);
-    
+    color: var(-color-customers-link-hover);
+    color: #404bbf;
 }
 .icon-svg {
     fill: currentColor;
